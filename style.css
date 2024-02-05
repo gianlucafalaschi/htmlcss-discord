@@ -30,7 +30,22 @@
 /* TYPOGRAPHY */
  .links a {
     color: white;
-    font-weight: bold;
+}
+
+.hero-box{
+    text-align: center;
+}
+
+.hero-box h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.hero-box p{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 /* BUTTON */
@@ -94,7 +109,8 @@ header, .container-top{
 /* hero */
 
 main .hero {
-    background-color: #00008B;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
     min-height:200px;
     display: flex;
     justify-content: center;
@@ -106,6 +122,7 @@ main .hero-box{
     max-width: 920px;
     width: 80%;
     height: 350px;
+    padding: 30px 0;
     border: 1px dashed black;
 }
 
