@@ -166,10 +166,21 @@ main .hero-box{
     padding: 30px 0;
 }
 
+
 .first-section img, .second-section img, .third-section img, .fourth-section img{
         max-width: 100%;
         height: auto;    
 }
+
+
+ .fourth-section h3{
+    display: inline-block;
+    height: 100%;
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+} 
 
 
 .container-main {
@@ -223,7 +234,7 @@ main .hero-box{
 }
 
 .bggray{
-    background-color: #D3D3D3;
+    background-color:#F6F6F6;
 }
 
 .bggreen{
