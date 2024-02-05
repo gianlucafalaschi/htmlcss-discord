@@ -54,16 +54,17 @@ header {
 }
 
 .container-top .logo {
-    align-self: flex-start;
     width: 20%;
     border: 1px dashed black;
 }
 
 .container-top .links {
-    align-self: center;
     width: 60%;
     text-align: center;
     border: 1px dashed black;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 
@@ -74,7 +75,6 @@ header {
 }
 
 .container-top .login{
-    align-self: flex-end;
     width: 20%;
     text-align: end;
     border: 1px dashed black;
