@@ -28,7 +28,14 @@
 }
 
 /* TYPOGRAPHY */
- .links a {
+main h1, h2, h3, p{
+    color: #23272A;
+}
+
+main h2{
+    margin-bottom:15px;
+}
+.links a {
     color: white;
 }
 
@@ -155,6 +162,12 @@ main .hero-box{
     padding: 30px 0;
 }
 
+.first-section img, .second-section img, .third-section img, .fourth-section img{
+        max-width: 100%;
+        height: auto;    
+}
+
+
 .container-main {
     max-width: 1180px;
     width: 100%;
@@ -164,13 +177,18 @@ main .hero-box{
     
 }
 
-.first-section .col60{
-    background-image: url(img/item1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+
+/* .first-section .col60{
+     background-image: url(img/item1.svg);
+     background-size: contain;
+     background-repeat: no-repeat;
+} */
 
 /* column */
+
+.col{
+    padding: 40px;
+}
 
 .col60 {
     width: 60%;
