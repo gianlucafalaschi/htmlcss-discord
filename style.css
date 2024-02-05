@@ -61,6 +61,18 @@ main h2{
     text-align: center;
 }
 
+footer h3{
+    color: #7289DA ;
+}
+
+footer h3{
+    font-size: 20px;
+}
+
+span.left-footer{
+    color: white;
+}
+
 /* BUTTON */
 .btn {
     background-color:transparent;
@@ -326,3 +338,8 @@ main .hero-box{
     border: 1px dashed white;
 
 }
+
+img.left-footer{
+    width: 30px;
+} 
+
