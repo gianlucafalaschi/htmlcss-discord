@@ -139,7 +139,7 @@ main .hero-box{
 
 
 
-/* first section */
+/* section */
 
 .first-section, .second-section, .third-section{
     display: flex;
@@ -164,6 +164,11 @@ main .hero-box{
     
 }
 
+.first-section .col60{
+    background-image: url(img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /* column */
 
