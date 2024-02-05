@@ -34,18 +34,20 @@
 
 .hero-box{
     text-align: center;
+    padding: 50px 0;
 }
 
 .hero-box h1{
     color: white;
     font-size: 50px;
-    margin-bottom: 50px;
-}
+      margin-bottom: 50px;
+ } 
 
 .hero-box p{
     color: white;
     font-size: 20px;
     line-height: 28px;
+    margin-bottom: 15px;
 }
 
 /* BUTTON */
@@ -62,6 +64,15 @@
 .btn-white{
     color: black;
     background-color:white;
+}
+
+.btn-black{
+    background-color: #23272A;
+    color: white;
+}
+
+.butt-hero > .btn{
+    margin: 0 10px;
 }
 
 /* HEADER */
@@ -118,11 +129,11 @@ main .hero {
 }
 
 main .hero-box{
-    background-color: #EE82EE;
+    background-color: transparent;
     max-width: 920px;
     width: 80%;
-    height: 350px;
-    padding: 30px 0;
+    min-height: 200px;
+    padding: 50px 0 80px 0;
     border: 1px dashed black;
 }
 
