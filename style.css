@@ -18,21 +18,36 @@
 
 
 .container-top{
+    display: flex;
+    align-items: center;
     min-height: 5px;
     max-width: 1180px;
     width: 100%;
     background-color:#DAA520;
-    display: flex;
     padding: 10px 8px;
     border: 1px dashed black;
 }
 
+/* TYPOGRAPHY */
+ .links a {
+    color: white;
+    font-weight: bold;
+}
 
+/* BUTTON */
+.btn {
+    background-color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
 
 /* HEADER */
 header {
     display: flex;
-    justify-content: center;
+     justify-content: center;
     min-height: 10px;
     background-color:#ADD8E6;
     padding: 10px 0;
@@ -51,8 +66,11 @@ header {
     border: 1px dashed black;
 }
 
+
+
 .links a {
     text-decoration: none;
+
 }
 
 .container-top .login{
