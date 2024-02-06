@@ -191,8 +191,7 @@ main .hero-box{
 
 
  .fourth-section h3{
-    display: inline-block;
-    height: 60px;
+    display: inline-block;     
     background-image: url(img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
