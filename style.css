@@ -27,6 +27,12 @@
 /*     border: 1px dashed black;
  */}
 
+ img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /* TYPOGRAPHY */
 main h1, h2, h3, p{
     color: #23272A;
@@ -184,12 +190,6 @@ main .hero-box{
 }
 
 
-.first-section img, .second-section img, .third-section img, .fourth-section img{
-        max-width: 100%;
-        height: auto;    
-}
-
-
  .fourth-section h3{
     display: inline-block;
     height: 60px;
@@ -235,7 +235,7 @@ main .hero-box{
 
 .col100{
     width: 100%;
-    height: 700px;
+    min-height: 300px;
 /*     border: 1px dashed black;
  */}
 
